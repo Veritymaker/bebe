@@ -1,0 +1,61 @@
+#willsigb {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  border: 12px solid #191717;
+  outline: 2px solid #202868;
+  outline-offset: -12px;
+  position: relative;
+ }
+
+.willimg{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  transition: all ease-in-out 1s;
+}
+
+#willsigb:hover .willimg{
+filter:brightness(35%) grayscale(65%);
+transition: all ease-in-out 1s;
+transition-delay: 0.2s;
+}
+
+#willsigb .btxt {
+  width: 280px;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 2.1px;
+  font: 8px arial;
+  color: #bfb4b4;
+  text-transform: uppercase;
+  line-height: 10px;
+  position: relative;
+  transition: all ease-in-out 1s;
+  top: -240px; 
+  z-index: 2;
+  text-shadow: 1px 1px black;
+}
+
+#willsigb:hover .btxt{
+  top: -110px;
+  transition: all ease-in-out 1s;
+  transition-delay: 0.2s;
+}
+
+#willsigb i{
+ position: relative;
+ transition: all ease-in-out 1s;
+ top: -158px;
+ margin: 5px 118px;
+ z-index: 1;
+ font-size: 60px;
+ color: #202868;
+ opacity: 0;
+}
+
+#willsigb:hover i{
+  transition: all ease-in-out 1s;
+  opacity: 0.5;
+}
