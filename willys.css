@@ -59,3 +59,60 @@ transition-delay: 0.2s;
   transition: all ease-in-out 1s;
   opacity: 0.5;
 }
+
+/*tablillas*/
+.willybase{
+  width: 430px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #020202;
+  border: 1px solid #0c0c0c;
+  font-size: 13px;
+  color: #adadad;
+}
+
+.willybase .tit1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #adadad;
+    border-bottom: 2px solid #252850;
+    padding-bottom: 4px;
+    text-align: right;
+}
+
+.tit1 acn{
+  border-bottom: 5px solid #252850;
+  padding-bottom: 3px;
+}
+
+.willybase .tit2 {
+    font-size: 16px;
+    color: #020202;
+    border-bottom: 2px solid #252850;
+    padding-bottom: 4px;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.tit2 an{
+  border-bottom: 5px solid #252850;
+  padding-bottom: 3px;
+}
+
+.willybase .subtit{
+ text-transform: lowercase;
+ font-size: 9px;
+ letter-spacing: 3px;
+ text-align: center;
+ margin-top:5px;
+}
+
+.willybase .texty {
+  line-height: 1.4em;
+  text-align: justify;
+  margin: 5px 0;
+}
+
+.texty.willy strong {
+  color: #252850;
+}
