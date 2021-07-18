@@ -97,3 +97,54 @@ color: #e8e2e2;
   opacity: 1;
   transition-delay: 0.6s;
 }
+
+:root {
+--lilahc: #a37c90;  
+}
+
+.lilahbase{
+  width: 430px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #020202;
+  border: 10px solid #020202;
+  outline: 1px solid var(--lilahc);    
+  outline-offset: -5px;
+  font-size: 13px;
+  color: #adadad;
+}
+
+.msicon {
+    text-align: center;
+    color: var(--lilahc);
+    font-size: 45px;
+    margin-top: -10px;
+}
+
+.lilahbase .tit1 {
+  color: #e8e2e2;
+  font: 400 25px 'IM Fell Great Primer';
+   text-shadow: 2px 2px 0 var(--lilahc);
+  letter-spacing: 2px;
+}
+
+.lilahbase .textin {
+  line-height: 1.45em;
+  font-size: 12px;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.textin.delilah strong {
+  color: var(--lilahc);
+}
+
+.lilahbase .tit2 {
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: right;
+    text-transform: uppercase;
+    border-top: 1px dashed var(--lilahc);
+    padding: 5px 0;
+}
