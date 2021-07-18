@@ -148,3 +148,8 @@ color: #e8e2e2;
     border-top: 1px dashed var(--lilahc);
     padding: 5px 0;
 }
+
+.tit2 i {
+   color: var(--lilahc);
+}
+
