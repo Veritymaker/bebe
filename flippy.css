@@ -1,0 +1,64 @@
+#squirrel {
+  width: 300px;
+  height: 210px;
+  position: relative;
+  margin: auto;
+  border: 6px solid #131212;
+  outline: 1px dotted #996600;
+  outline-offset: -5px;
+  overflow: hidden;
+  background: url(https://i.ibb.co/HXT1CXg/rsf.png);
+}
+
+#squirrel .riche{
+  position: relative;
+  width: 150px;
+  height: 210px;
+  margin-top: -215px;
+  transition: 0.6s ease-out;
+  transition-delay: 0.2s;
+  background: #131212ad;
+}
+
+#squirrel:hover .riche{
+  transition: 0.6s ease-out;
+  margin-top: 0px;
+}
+
+.riche .rmtx {
+/*display: block;*/
+height: auto;
+margin: 0 auto;
+text-align: center;
+text-transform: uppercase;
+font: 11px calibri;
+color: #efefef;
+  padding: 100px 5px 5px 5px;
+}
+
+.riche .rmtx:after {
+width: 60px;
+  height: 1px;
+  background: #996600;
+  content: ' ';
+  display: block;
+margin-left: 41px;
+margin-top: 6px;
+}
+
+#flipp {
+  animation: flippy 5s linear infinite;
+  position: absolute;
+  font-size: 30px;
+  top: 40px;
+  left: 60px;
+}
+
+@keyframes flippy { 
+  0% { color: #996600 } 
+  20% { color: #889900; } 
+  40% { color: #009976; } 
+  60% { color: #003999; }
+  80% { color: #249900; }
+  100% { color: #996600 } 
+} 
