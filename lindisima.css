@@ -1,0 +1,101 @@
+#lb {
+  width: 310px;
+  height: 220px;
+  position: relative;
+  margin: auto;
+  border: 6px solid #131212;
+  outline: 2px solid #af8e31;
+  outline-offset: 4px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: url(https://i.ibb.co/DrNnBsc/lbf.png);
+}
+
+#lb .lndb1{
+  position: absolute;
+  width: 155px;
+  height: 220px;
+  filter:opacity(70%);
+  margin-left: -160px;
+  transition: 0.9s ease-in-out;
+  /*transition-delay: 0.11s;*/
+  background: #af8e31;
+}
+
+#lb .lndb2{
+  position: absolute;
+  width: 155px;
+  height: 220px;
+  filter:opacity(70%);
+  margin-left: 300px;
+  transition: 0.9s ease-in-out;
+  background: #af8e31;
+}
+
+#lb:hover .lndb1{
+  transition: 1.2s ease-out;
+  margin-left: 0px;
+}
+
+#lb:hover .lndb2{
+  transition: 1.2s ease-out;
+  margin-left: 155px;
+}
+
+.lndtxt {
+  position: relative;
+  width: 260px;
+  text-align: justify;
+  letter-spacing: 3px;
+  font: 9px arial;
+  color: #fcfcfc;
+  text-shadow: 0 1px 1px #131212;
+  text-transform: uppercase;
+  margin: auto;
+  line-height: 10px;
+  transition: all ease-in-out 1s;
+  top: 215px;
+}
+
+#lb:hover .lndtxt{
+     filter: blur(45px);
+    transition-delay: 0.2s;
+    transition: all ease-in-out 1s;
+}
+
+.nmtg{
+position: relative;
+    letter-spacing: 5px;
+    font: 700 30px arial;
+   -webkit-text-fill-color: #f1f1f1a3;
+    text-transform: uppercase;
+    transition: all ease-in-out 1s;
+    top: 125px;
+    left: 50px;
+    opacity: 0;
+}
+
+#lb:hover .nmtg{
+    opacity: 1;
+    top: -45px;
+    transition-delay: 0.2s;
+    transition: all ease-in-out 1s;
+}
+
+#lbs {
+    font-size: 60px;
+    margin-top: -135px;
+    margin-left: 85px;
+    display: block;
+    transition: all ease-in-out 1s;
+    transform: rotate(-45deg);
+  -webkit-text-stroke: 1px #af8e31;
+    -webkit-text-fill-color: #f1f1f1a3;
+}
+
+#lb:hover #lbs {
+    margin-top: 50px;
+    margin-left: 120px;
+    transition: all ease-in-out 1s;
+    transform: rotate(0deg);
+}
