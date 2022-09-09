@@ -45,7 +45,7 @@
 #dankb span {
 width: 50px;
     height: 50px;
-    border: 1px solid #c47726;
+    border: 1px solid var(--dkcolor);
     display: inline-block;
     transform: rotate(45deg);
     position: relative;
@@ -100,7 +100,70 @@ width: 50px;
 }
 
 .dbox-t .rbtx b {
-    background-color: #c47726;
-  padding: 1px;
-    color: #080808;
+  background-color: var(--dkcolor);
+  padding: 1px;   color: #080808;
+}
+
+/**TABLILLAS**/
+.roltab-dkc {
+    border: var(--border);
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    line-height: 140%;
+}
+
+.dkc-tit {
+    width: 100%;
+    background: var(--back1);
+    text-align: left;
+    font: 21px 'El Messiri', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 100%;
+    border-bottom: 1px dotted var(--dkcolor);
+    padding: 40px;
+}
+.dkc-tit b{
+  color: var(--dkcolor);
+}
+
+.dkc-txct {
+    padding: 40px;
+    background: var(--back2);
+    font: 12px Georgia;
+    line-height: 155%;
+    text-align: justify;
+}
+
+.roltab-dkc .exdat{
+  display: flex;
+    flex-direction: column;
+    border-top: 1px dotted var(--dkcolor);
+    width: 100%;
+    background: var(--back1);
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 40px;
+}
+
+.exdat span{
+    font: 600 7px Calibri;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 200%;
+    padding: 1px;
+    color: #212121;
+  }
+
+:root {
+  --dkcolor: #c47726;
 }
