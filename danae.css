@@ -1,0 +1,107 @@
+/**FIRMA**/
+#dankb {
+  width: 300px;
+  height: 225px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 3px solid #080808;
+  position: relative;
+ }
+
+.dk-i {
+  width: 375px;  
+  height: 220px; 
+  transition: all 0.6s ease-in-out; 
+  transform: translateX(-60px);
+  border-top: 3px solid #212121;
+  border-bottom: 3px solid #212121;
+  position: absolute;
+}
+
+#dankb:hover .dk-i{
+  transform: translateX(0px);
+  transition: all 0.6s ease-in-out; 
+  filter: brightness(0.7) grayscale(0.3) blur(0.5px);
+}
+
+#dankb .dbox-t {
+  width: 120px;
+  height: 200px;
+  position: relative;
+  left: -150px;
+  top: -55px;
+  /*margin: 4px 0;*/
+    background: #a25505d4;
+    mix-blend-mode: difference;
+    padding: 15px;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+#dankb:hover .dbox-t {
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+#dankb span {
+width: 50px;
+    height: 50px;
+    border: 1px solid #c47726;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    left: 40px;
+    top: 120px;
+  transition: all 0.4s ease-in;
+}
+#dankb:hover span {
+  top: 150px;
+  transition: all 0.4s ease-in;
+}
+
+#dankb span i {
+   text-align: center;
+  transform: rotate(-45deg);
+   display: block;
+  position: relative;
+  font-size: 37px;
+  color: #efefef;
+  opacity: 0.5;
+  margin: 6px 0 0;
+  animation: kestrel linear 7s infinite;
+  z-index: 99;
+}
+
+@keyframes kestrel {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% { transform: rotate(360deg); }
+}
+
+.dbox-t .rbtx{
+    font: 11px Calibri;
+    color: #efefef;
+    width: 120px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  line-height: 14px;
+}
+
+.dbox-t .rbtx b {
+    background-color: #c47726;
+  padding: 1px;
+    color: #080808;
+}
