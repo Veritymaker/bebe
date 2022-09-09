@@ -1,12 +1,12 @@
 /**FIRMA**/
 #dankb {
-  width: 300px;
-  height: 225px;
-  margin: 0 auto;
-  overflow: hidden;
-  border: 3px solid #080808;
-  position: relative;
- }
+    width: 300px;
+    height: 225px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid #050505;
+    position: relative;
+}
 
 .dk-i {
   width: 375px;  
@@ -25,13 +25,12 @@
 }
 
 #dankb .dbox-t {
-  width: 120px;
-  height: 200px;
-  position: relative;
-  left: -150px;
-  top: -55px;
-  /*margin: 4px 0;*/
-    background: #a25505d4;
+    width: 150px;
+    height: 215px;
+    position: relative;
+    left: -150px;
+    top: -47px;
+    background: #a25505e6;
     mix-blend-mode: difference;
     padding: 15px;
     transition: all 0.5s ease-in-out;
