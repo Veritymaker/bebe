@@ -1,10 +1,10 @@
 /**FIRMA**/
 #dankb {
-    width: 300px;
-    height: 225px;
-    margin: 0 auto;
-    overflow: hidden;
-    border: 3px solid #050505;
+    width: 315px;   height: 235px;
+    margin: 0 auto;    overflow: hidden;
+    outline-offset: -10px;
+    border: 10px solid var(--back3);
+    outline: 1px solid #c477264a;
     position: relative;
 }
 
@@ -13,15 +13,13 @@
   height: 220px; 
   transition: all 0.6s ease-in-out; 
   transform: translateX(-60px);
-  border-top: 3px solid #212121;
-  border-bottom: 3px solid #212121;
   position: absolute;
 }
 
 #dankb:hover .dk-i{
   transform: translateX(0px);
   transition: all 0.6s ease-in-out; 
-  filter: brightness(0.7) grayscale(0.3) blur(0.5px);
+  filter: brightness(0.6) grayscale(0.4) blur(1px);
 }
 
 #dankb .dbox-t {
