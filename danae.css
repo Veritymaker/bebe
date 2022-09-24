@@ -86,20 +86,24 @@ width: 50px;
   100% { transform: rotate(360deg); }
 }
 
-.dbox-t .rbtx{
-    font: 11px Calibri;
+.dbox-t .rbtx {
+    font: 10px Calibri;
     color: #efefef;
-    width: 120px;
-    margin: 30px 0 0 0;
+    width: 130px;
+    margin: 10px 0;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-  line-height: 14px;
+    letter-spacing: 1px;
+    line-height: 12px;
 }
 
 .dbox-t .rbtx b {
-  background-color: var(--dkcolor);
-  padding: 1px;   color: #080808;
+    background-color: var(--dkcolor);
+    padding: 1px;
+    color: var(--back1);
+    text-transform: lowercase;
+    font-style: italic;
+    mix-blend-mode: overlay;
 }
 
 /**TABLILLAS**/
